@@ -1,4 +1,4 @@
-msg = input("Enter your message -> ")
+msg = input("Enter your message -> ").lower()
 words=msg.split(' ') #if it encounters a space, it will split the msg accordingly
 emojis = {
     "blessed":"😇",
