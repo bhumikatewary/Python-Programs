@@ -1,12 +1,12 @@
 class Person:
-    def __init__(self,name):
+    def __init__(self,name): #constructor
         self.name=name
         
     def talk(self):
-        print(f"Hi {self.name} How are you?")
+        print(f"Hi {self.name} How are you?")  #formatted string
         
 
 
-bhumika=Person("Bhumika")
+bhumika=Person("Bhumika")   #object belonging to person class
 bhumika.talk();
 
